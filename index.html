@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <title>UPM-ID - Single Sign On</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="main-nav">
+      <div class="left-nav">
+        <img src="img/logo.png" alt="logo">
+      </div>
+      <div class="right-nav">
+        <img src="img/cas-logo.png" alt="upmId logo">
+      </div>
+    </nav>
+    <div class="container-content">
+      <section class="application">
+        <div class="apps">
+          <img src="img/webapp.png" alt="application">
+        </div>
+        <div class="apps-text">
+          <h4>UPM Application</h2>
+            <p>UPM application.</p>
+        </div>
+      </section>
+
+      <section class="main-area">
+        <div class="left-content">
+          <div class="login-error">
+            <div>
+              <img src="img/error.png" alt="">
+            </div>
+            <div class="error-text">
+              
+            </div>
+          </div>
+          <h2>Enter your UPM-ID and Password</h2>
+          <form action="#" class="form-group">
+            <div class="id">
+              <label for="upm-id">UPM-ID:</label>
+              <input type="text" name="upm-id" id="upm-id">
+            </div>
+            <div class="pass">
+              <label for="password">Password:</label>
+              <input type="password" name="password" id="password">
+            </div>
+            <div class="error">
+              <p><span class="b">PASSWORD IS INVALID OR DOES NOT MEET THE PASSWORD POLICY REQUIREMENTS!</span> It must contain at least 8 characters long: 1
+              upper-case, 1 lower-case and 1 digit.</p><br>
+              <p>
+                <span class="b">Please RESET (Forgot Password link)</span> your password if it does not meet the requirements
+              </p>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+            <button type="reset" class="btn btn-secondary">Clear</button>
+          </form>
+        </div>
+        <div class="contents">
+          <div class="first-time">
+            <h4>First Time Login</h4>
+            <p>Complete your <img src="img/ja-sig-logo.gif" alt=""> registration.</p>
+            <a href="#">UPM Student Registration</a> | <a href="#">UPM Staff Registration</a>
+          </div>
+          <hr>
+          <div class="forgot-password">
+            <h4>Forgot Password</h4>
+            <p>Forgotten your password?</p>
+            <a href="#">Click here for UPM Student</a> | <a href="#">Click here for UPM Staff</a>
+          </div>
+          <hr>
+          <div class="ICT">
+            <h4>ICT Users Guide And Policy</h4>
+            <a href="#">Security Guidelines for Information and Communication Technology (GPKTMK)</a> <a href="#">Guidelines for Internet Access University Putra Malaysia</a>
+          </div>
+          <hr>
+          <div class="Support">
+            <h4>Support</h4>
+            <a href="#">Self Help FAQ (Malay)</a>
+            <a href="#">Self Help FAQ (English)</a>
+          </div>
+          <div class="contact">
+            <h4>Contact Us</h4>
+            <p>Inquiry regarding <span>PutraBLAST</span> please contact:</p>
+            <p>Tel. No.: 03-9769 6136</p>
+            <p>(Open weekdays except for public holidays/weekend from 9.00 am until 12.30 pm, continue at 2.00 pm until 5.00pm) Email: cadeinovasi@upm.edu.my (All inquiries will be answered not later than 48 working hours)</p><br>
+            <p>IDEC Helpdesk : 0389471990 (Mon - Fri : 8.30am - 12.30pm, 2.30pm - 4.30pm)
+            idec_helpdesk@upm.edu.my</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  <!-- En inner container -->
+  </div>
+  <!-- End container -->
+  <footer>
+    <p><img src="img/ja-sig-logo.gif" alt="">2016 IDEC, Universiti Putra Malaysia. E141-1</p>
+  </footer>
+  <!-- script -->
+  <script src="app.js"></script>
+</body>
+</html>
